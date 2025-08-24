@@ -51,7 +51,7 @@
           <input value={height} onChange={(e)=>{
             e.target.value
             setHeight(Number(e.target.value));
-          }} className="mb-2 w-full text-lg border-2 " type="text" placeholder="Enter Height in KG's" />
+          }} className="mb-2 w-full text-lg border-2 " type="text" placeholder="Enter Height in in" />
         </div>
         <div id="btns" className="flex flex-col w-auto items-center ">
           <button onClick={bmiCalculator} className=" bg-sky-600 text-white text-xl font-semibold w-full py-3 rounded mb-3 cursor-pointer hover:bg-sky-900">Submit</button>
